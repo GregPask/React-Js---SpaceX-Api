@@ -34,7 +34,7 @@ class Home extends Component {
     }
 
     componentDidMount(){
-     interval =  setInterval(this.changePhoto,2000);
+     interval =  setInterval(this.changePhoto,3000);
     }
 
     render() { 
