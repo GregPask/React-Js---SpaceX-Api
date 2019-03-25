@@ -1,0 +1,54 @@
+#gallery {
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    h2 {
+        margin: 2rem 0;
+        font-size: 3rem;
+        color: #fff;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    button {
+        margin: -6rem 0;
+        background-color: rgb(104, 25, 25);
+        border: 0;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 1.4rem;
+        width: 300px;
+        padding: 15px 25px;
+
+        &:hover {
+            transform: scale(1.2);
+            background-color: rgb(173, 38, 38);
+        }
+    }
+}
+
+
+#gallery-btn {
+
+    width: 300px;
+    margin: 10rem 0;
+    background-color: rgb(29, 88, 21);
+    border: 0;
+    cursor: pointer;
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 15px 25px;
+    &:hover {
+        transform: scale(1.2);
+        background-color: rgb(31, 97, 22);
+    }
+}

@@ -1,0 +1,66 @@
+#history {
+  
+    height: auto;
+}
+
+
+
+#history-grid {
+    
+    display: grid;
+    max-width: 1100px;
+    grid-gap: 5rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+    // border: 1px solid red;
+    h2 {
+        text-align: center ;
+        font-size: 2.9rem;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        color: rgba(34, 34, 34, 0.911);
+    }
+    p {
+        font-size: 1.3rem;
+        color: rgba(34, 34, 34, 0.863);
+        margin-bottom: 1.5rem;
+    }
+
+    #history-btn {
+        background-color: rgb(22, 22, 22);
+        border: 1px solid black;
+        color: #fff;
+        padding: 14px 25px;
+        border: 0;
+        width: 300px;
+        margin: -1rem auto 1rem auto;
+        &:hover {
+            background-color: rgb(41, 41, 41);
+            transform: scale(1.1);
+           
+        }
+    }
+}
+
+
+.history-event {
+    background-color: rgb(40, 41, 41);
+    text-align: left;
+    padding: 1rem;
+    color: #fff;
+    line-height: 1.5;
+   max-width: 500px;
+   margin: auto;
+
+    p {
+        color: rgb(136, 136, 136) !important;
+    }
+}
+
+
+@media(max-width: 768px){
+    #about-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,96 @@
+#launch {
+    background-color: black;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+#launch-grid {
+       display: grid;
+       grid-template-columns: 1fr;
+       max-width: 900px;
+       grid-gap: 1rem;
+       
+       margin: 1rem auto;
+       padding: 1rem;
+       color: #ccc !important;
+
+       h3 {
+           color: rgb(251, 251, 251);
+           letter-spacing: 1.2px;
+           font-size: 1.7rem;
+           margin: 2rem 0 1.5rem 0;
+           font-weight: bold;
+
+       }
+       h2 {
+           text-align: center;
+           font-size: 2.5rem;
+           color: #ccc !important;
+           letter-spacing: 1.2px;
+       }
+
+       div {
+           background-color: rgb(29, 28, 28);
+           color: #fff;
+           padding: 1rem;
+       }
+   
+       p {
+           font-size: 1.3rem;
+           color: rgba(34, 34, 34, 0.863);
+           margin-bottom: 1.5rem;
+           color: rgba(184, 186, 187, 0.863);
+           font-weight: bold;
+           line-height: 1.2 !important;
+       }
+}
+
+#btn-wrap {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#btn2 {
+    background-color: black;
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 14px 25px;
+    width: 200px;
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+
+    &:hover {
+        background-color: rgba(71, 71, 71, 0);
+    }
+}
+
+
+@media(max-width: 992px){
+  
+
+}
+
+
+
+@media(max-width: 768px){
+    
+
+    #launch-grid {
+
+        width: 100% !important;
+        h3 {
+            font-size: 1.7rem;
+        }
+        h2 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+}
+

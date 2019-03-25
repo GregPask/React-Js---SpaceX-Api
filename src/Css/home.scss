@@ -1,0 +1,120 @@
+#home {
+    // border: 1px solid red;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+
+#overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.507);
+    z-index: 10;
+}
+
+
+#home-content {
+    z-index: 20;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    // border: 1px solid red;
+  width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+        font-size: 4rem;
+        margin-bottom: 3rem;
+        font-weight: 500;
+        letter-spacing: 1.2px;
+        color: #ececec !important;
+        
+    }
+
+
+    button, #btn1 {
+        width: 250px;
+        color: rgb(195, 195, 195);
+        border: 1px solid rgb(3, 3, 3);
+        background-color: rgba(0, 0, 0, 0.835);
+        padding: 14px 20px;
+        font-weight: 500;
+        letter-spacing: 1.1px;
+        
+        &:hover {
+            transform: scale(1.1);
+            color: rgb(255, 255, 255);
+            // background-color: rgba(0, 0, 0, 0.61);
+            // font-size: 1.33rem;
+        }
+    }
+   
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+#home2 {
+    background-image: url("https://www.highreshdwallpapers.com/wp-content/uploads/2017/05/Surreal-Space-Wallpaper.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#home1 {
+    background-image: url("https://wallpaperplay.com/walls/full/d/b/e/15536.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#home3 {
+    background-image: url("https://cdn.guidingtech.com/imager/media/assets/192569/Stunning-Space-Wallpapers-6_4d470f76dc99e18ad75087b1b8410ea9.png?1524151254");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.hero-image {
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+
+.hero-image.show {
+    opacity: 1;
+}
+
+
+
+
+@media(max-width: 768px){
+    #home-content {
+       
+        h2 {
+            font-size: 2.4rem;
+        }
+    }
+}

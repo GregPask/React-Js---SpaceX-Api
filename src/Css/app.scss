@@ -1,0 +1,45 @@
+//Imports 
+
+@import "./reset.scss";
+@import "./nav.scss";
+@import "./home.scss";
+@import "./about.scss";
+@import "./launches.scss";
+@import "./launch.scss";
+@import "./gallery.scss";
+@import "./history.scss";
+
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  background-color: rgb(212, 212, 212);
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body , html, h1,h2,h3,a,li,ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,p,a,li,ul, button {
+  transition: all 0.5s ease;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+
+    // font-family: 'Source Sans Pro', sans-serif;
+  }
+
+
+  .white {
+    color: #fff !important;
+  }
